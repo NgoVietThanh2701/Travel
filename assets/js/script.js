@@ -41,8 +41,8 @@ window.addEventListener("scroll", () => {
 
 goToBtn.addEventListener('click', (e) => {
    e.preventDefault();
+   // const headerPosition = header.getBoundingClientRect();
    smoothScrollTo(0, 1350);
-
 });
 
 // Hàm cuộn mượt
